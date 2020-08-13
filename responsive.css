@@ -1,0 +1,47 @@
+/*  responsive part  */
+
+@media all and (max-width:819px){
+.middle-area {
+    width: 95%;
+}
+}
+@media all and (max-width:690px){
+.logo-area {
+    width: 100%;
+    float: none;
+    margin-bottom: 27px;
+}
+.login-area {
+    width: 100%;
+    float: none;
+}
+.login-area form {
+    float: none;
+}
+.login-first {
+    float: none;
+}
+.login-second {
+    float: none;
+}
+.login-submit {
+    float: none;
+}
+.login-area input[type="text"],
+.login-area input[type="password"] {
+    display: block;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #1d2a5b;
+    width: 100%;
+}
+/* middle part */
+@media all and (max-width:690px){
+	.signup-left{
+		width:100%;
+		float:none;
+	}
+	.signup-right{
+	width:100%;
+	float:none;
+	}
